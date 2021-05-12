@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  description: MyString
+  price: 1.5
+  quantity: 1
+  payment_due: 2021-05-12 14:14:47
+  payment_terms: 1
+  status: MyString
+  client_name: MyString
+  client_email: MyString
+  client_address: MyString
+
+two:
+  description: MyString
+  price: 1.5
+  quantity: 1
+  payment_due: 2021-05-12 14:14:47
+  payment_terms: 1
+  status: MyString
+  client_name: MyString
+  client_email: MyString
+  client_address: MyString
