@@ -35,9 +35,10 @@ class Api::V1::InvoicesController < ApplicationController
   end
 
   def destroy
+    # binding.pry
     @invoice.destroy
 
-    render json: { message: "Invoice Deleted!"}
+    render json: @account, status: :accepted
   end
 
   private
